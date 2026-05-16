@@ -6,7 +6,7 @@ GCP_HOST="${GCP_HOST}"
 GCP_PATH="${GCP_PATH}"
 GCP_XRAY_PATH="${GCP_XRAY_PATH}"
 
-curl -X POST "https://vpnhub.cloud./xjvpn/api/server/register-gcp" \
+curl -X POST "https://vpnhub.cloud/xjvpn/api/server/register-gcp" \
   -H "Content-Type: application/json" \
   -d "{
     \"ip\": \"$PUBLIC_IP\",
