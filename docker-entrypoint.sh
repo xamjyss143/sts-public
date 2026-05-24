@@ -26,7 +26,7 @@ awk '
     code=$(echo "$gcp_path" | sed 's#^/##')
     gcp_xray_path="/vless_${code}"
     gcp_vmess_path="/vmess_${code}"
-    gcp_trojan_path="/trojan_${code}"
+    gcp_trojan_path="/trojan-ws_${code}"
 
     echo "Registering $ip -> $gcp_path -> $gcp_xray_path -> $gcp_vmess_path -> $gcp_trojan_path"
 
